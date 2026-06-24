@@ -107,6 +107,7 @@ The successful run is documented by:
 - `benchmarks/03-real-rag-pipeline-output.txt`
 - `benchmarks/03-real-integration-summary.md`
 - `submission/screenshots/07-real-rag-pipeline.png`
+- `submission/screenshots/08-milestone1-live-demo.png`
 
 ## What this proves
 
