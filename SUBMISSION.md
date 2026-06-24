@@ -1,3 +1,16 @@
+<!-- MILESTONE1_LINK -->
+## Milestone 1 Integration
+
+For the final integrated platform demo across Day16-Day20, see [MILESTONE1.md](MILESTONE1.md).
+
+Key Milestone 1 files:
+
+- [Architecture](architecture/milestone1-architecture.md)
+- [End-to-end live demo](integration/end_to_end_demo.md)
+- [Live demo runbook](integration/runbook.md)
+- [Latency and cost benchmark](benchmarks/milestone1-latency-cost.md)
+- [Kubernetes deployment note](k8s/README.md)
+
 # Day 20 Submission Summary — Model Serving & Real RAG Integration
 
 ## Quick Status

@@ -1,3 +1,16 @@
+<!-- MILESTONE1_LINK -->
+## Milestone 1 Integration
+
+This Day20 repository also contains the final Milestone 1 wrapper that integrates Day16-Day20 into one AI infrastructure platform demo.
+
+Start here:
+
+- [MILESTONE1.md](MILESTONE1.md)
+- [Architecture](architecture/milestone1-architecture.md)
+- [End-to-end live demo](integration/end_to_end_demo.md)
+- [Live demo runbook](integration/runbook.md)
+- [Latency and cost benchmark](benchmarks/milestone1-latency-cost.md)
+
 <!-- SUBMISSION_SUMMARY_LINK -->
 ## Submission Summary
 
