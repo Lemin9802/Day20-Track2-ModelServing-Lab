@@ -1,0 +1,15 @@
+
+=== Why is goodput more useful than throughput? ===
+  contexts: ['n20-paged', 'n20-radix', 'n20-disagg']
+  timings : {'retrieve': 0.0, 'llm': 3004.2, 'total': 3004.3}
+  answer  : The provided documents do not contain information comparing goodput to throughput. Therefore, I cannot answer the question based on the given context.
+
+=== What problem does PagedAttention actually solve? ===
+  contexts: ['n20-paged', 'n20-radix', 'n20-disagg']
+  timings : {'retrieve': 0.0, 'llm': 1400.9, 'total': 1401.0}
+  answer  : PagedAttention solves the problem of fragmentation in KV cache, reducing it by 60-80%.
+
+=== When should I think about disaggregated serving? ===
+  contexts: ['n20-disagg', 'n20-paged', 'n20-radix']
+  timings : {'retrieve': 0.0, 'llm': 3917.0, 'total': 3917.1}
+  answer  : You should consider disaggregated serving when you need to optimize the use of GPU resources in a way that splits the prefill and decode processes onto separate GPU pools. This approach can lead to more efficient utilization of hardware resources, particularly in scenarios where these two processes 

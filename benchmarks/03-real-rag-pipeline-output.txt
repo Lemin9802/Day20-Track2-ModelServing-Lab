@@ -1,0 +1,33 @@
+Day20 real integration pipeline
+Day19 retrieval: http://localhost:8000/search mode= hybrid top_k= 3
+Day20 llama-server: http://localhost:8080/v1 model= local
+
+=== Tự động mở rộng hạ tầng theo lưu lượng người dùng là gì? ===
+  contexts:
+    - cloud_036 | score=0.031545 | Điện toán đám mây: tự động mở rộng theo lưu lượng
+    - cloud_000 | score=0.031258 | Điện toán đám mây: tự động mở rộng theo lưu lượng
+    - cloud_033 | score=0.031010 | Điện toán đám mây: tự động mở rộng theo lưu lượng
+  timings : {'retrieve': 137.3, 'llm': 5785.9, 'total': 5923.2}
+  answer  : Tự động mở rộng hạ tầng theo lưu lượng người dùng là khả năng tự động tăng hoặc giảm tài nguyên dựa trên nhu cầu thực tế của lưu lượng truy cập. Khái niệm này quan trọng trong điện toán đám mây để tối ưu hóa hiệu suất và chi phí.
+
+Mentioned doc_id: cloud_036, cloud_000, cloud_033
+
+=== Schema evolution không phá vỡ downstream nghĩa là gì? ===
+  contexts:
+    - data_eng_044 | score=0.032522 | Data engineering: schema evolution không phá vỡ downstream
+    - data_eng_085 | score=0.032018 | Data engineering: schema evolution không phá vỡ downstream
+    - data_eng_026 | score=0.030835 | Data engineering: schema evolution không phá vỡ downstream
+  timings : {'retrieve': 80.7, 'llm': 3196.1, 'total': 3276.8}
+  answer  : Schema evolution không phá vỡ downstream nghĩa là quá trình thay đổi schema trong hệ thống dữ liệu mà không ảnh hưởng đến các tác vụ xử lý dữ liệu (downstream tasks) đang chạy. Điều này đảm bảo rằng khi có sự thay đổi về cấu trúc dữ liệu, các công việc tiếp theo vẫn hoạt động bình thường.
+
+Mentioned doc_id: data_eng_044
+
+=== Zero trust và MFA giúp bảo mật hệ thống như thế nào? ===
+  contexts:
+    - security_054 | score=0.032266 | Bảo mật: bảo vệ dữ liệu nhạy cảm khi lưu trữ
+    - security_052 | score=0.029958 | Bảo mật: bảo vệ dữ liệu nhạy cảm khi lưu trữ
+    - security_096 | score=0.028718 | Bảo mật: bảo vệ dữ liệu nhạy cảm khi lưu trữ
+  timings : {'retrieve': 59.3, 'llm': 2835.6, 'total': 2895.0}
+  answer  : Zero trust là một công cụ bảo mật giúp đảm bảo rằng chỉ có những thiết bị và ứng dụng được xác thực mới có quyền truy cập vào hệ thống, không phụ thuộc vào vị trí của thiết bị. Zero trust làm tăng mức độ bảo vệ dữ liệu nhạy cảm khi lưu trữ.
+
+Mentioned doc_id: security_054

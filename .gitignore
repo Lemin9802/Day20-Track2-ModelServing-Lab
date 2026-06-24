@@ -17,3 +17,7 @@ locust_*.csv
 
 # NOTE: hardware.json AND benchmarks/*.md / *.json files are TRACKED on purpose.
 # They are the evidence the rubric grades against. See rubric.md.
+
+# Local model weights - do not commit
+models/
+*.gguf

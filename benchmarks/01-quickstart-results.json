@@ -1,0 +1,36 @@
+{
+  "primary": {
+    "label": "primary (Q4_K_M)",
+    "model_path": "/home/emin98/labs/Day20-Track2-ModelServing-Lab/models/qwen2.5-7b-instruct-q4_k_m-00001-of-00002.gguf",
+    "n_threads": 24,
+    "n_ctx": 2048,
+    "n_batch": 512,
+    "n_gpu_layers": 99,
+    "load_ms": 5813.3,
+    "ttft_ms_p50": 58.4,
+    "ttft_ms_p95": 75.5,
+    "tpot_ms_p50": 28.64,
+    "tpot_ms_p95": 34.54,
+    "e2e_ms_p50": 1853.3,
+    "e2e_ms_p95": 2033.0,
+    "e2e_ms_p99": 2055.4,
+    "decode_rate_tok_s": 34.9
+  },
+  "compare": {
+    "label": "compare (Q2_K)",
+    "model_path": "/home/emin98/labs/Day20-Track2-ModelServing-Lab/models/qwen2.5-7b-instruct-q2_k.gguf",
+    "n_threads": 24,
+    "n_ctx": 2048,
+    "n_batch": 512,
+    "n_gpu_layers": 99,
+    "load_ms": 2091.3,
+    "ttft_ms_p50": 45.0,
+    "ttft_ms_p95": 60.8,
+    "tpot_ms_p50": 25.45,
+    "tpot_ms_p95": 28.99,
+    "e2e_ms_p50": 1638.2,
+    "e2e_ms_p95": 1704.8,
+    "e2e_ms_p99": 1722.9,
+    "decode_rate_tok_s": 39.3
+  }
+}

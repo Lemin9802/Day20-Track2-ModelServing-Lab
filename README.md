@@ -1,3 +1,8 @@
+<!-- SUBMISSION_SUMMARY_LINK -->
+## Submission Summary
+
+For grading, see [SUBMISSION.md](SUBMISSION.md) for completed Day20 evidence, benchmark outputs, screenshots, and the real Day19 + Day20 RAG integration.
+
 # Day 20 Lab — Model Serving & Inference Optimization (Track 2)
 
 Lab cho **AICB-P2T2 · Ngày 20 · Model Serving & Inference Optimization**.
