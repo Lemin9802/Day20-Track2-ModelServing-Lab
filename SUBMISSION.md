@@ -92,3 +92,8 @@ Example retrieved context IDs:
 ## Important Note
 
 This real integration does not remove the previous Day20 evidence. Screenshots `01` to `06` remain as the original model-serving evidence. Screenshot `07` and the `03-real-*` benchmark files document the new real Day19 + Day20 integration.
+
+
+## Milestone 1 Live Demo Screenshot
+
+- `submission/screenshots/08-milestone1-live-demo.png`

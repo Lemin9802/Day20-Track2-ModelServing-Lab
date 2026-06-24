@@ -171,3 +171,8 @@ Expected result:
 - benchmarks/03-real-integration-summary.md
 - benchmarks/03-real-rag-pipeline-output.txt
 - submission/screenshots/07-real-rag-pipeline.png
+
+
+## Milestone 1 Live Demo Screenshot
+
+- `submission/screenshots/08-milestone1-live-demo.png`
