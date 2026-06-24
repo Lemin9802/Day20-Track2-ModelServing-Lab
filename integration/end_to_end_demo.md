@@ -34,7 +34,7 @@ Use three WSL terminals.
 
 Go to the Day19 repo:
 
-    cd /home/emin98/labs/Day19_2A202600783_Thai-Thi-Yen-Nhi
+    cd /home/emin98/labs/Day19-Track2-VectorFeatureStore-Lab
 
 Start the Day19 stack/API according to the path used in the Day19 submission.
 

@@ -18,7 +18,7 @@ Confirm the required evidence files exist:
 
 In Terminal 1:
 
-    cd /home/emin98/labs/Day19_2A202600783_Thai-Thi-Yen-Nhi
+    cd /home/emin98/labs/Day19-Track2-VectorFeatureStore-Lab
     docker compose up -d
     make api
 
